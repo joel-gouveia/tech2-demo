@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "923975462445",
+    "firebase_url": "https://long-equinox-169314.firebaseio.com",
+    "project_id": "long-equinox-169314",
+    "storage_bucket": "long-equinox-169314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923975462445:android:886524b5ae464aaa",
+        "android_client_info": {
+          "package_name": "tech2.toptal.com.toptal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923975462445-to7e07sd3i0mfklkeamd104qqjflk7ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARif-b7D448XJhe9D7vCeZWp2ivQZeQg8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
