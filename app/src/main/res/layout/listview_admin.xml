@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:id="@+id/listview_admin_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/listview_admin_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Random User"
+        android:layout_centerVertical="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/listview_admin_number_meals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:text="23 meals"
+        android:textSize="14sp" />
+
+</RelativeLayout>

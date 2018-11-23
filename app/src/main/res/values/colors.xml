@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="foodie_green">#60bd21</color>
+    <color name="foodie_yellow">#f5c74b</color>
+    <color name="foodie_yellow_dim">#10f5c74b</color>
+    <color name="foodie_red">#e64e4e</color>
+    <color name="black_transparent">#25000000</color>
+
+    <!-- Basic colors -->
+    <color name="gray">#808080</color>
+
+</resources>

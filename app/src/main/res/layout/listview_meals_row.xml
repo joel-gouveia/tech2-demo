@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/foodie_yellow_dim"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:id="@+id/listview_meals_row_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/listview_meals_row_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="left"
+            android:text="10am"
+            android:textColor="@color/foodie_green"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/listview_meals_row_calories"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="250 calories"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/listview_meals_row_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="false"
+        android:maxLines="3"
+        android:layout_marginTop="5dp"
+        android:text="Breakfast at Joel's, then Brunch with Louise and a little snack before lunch"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>

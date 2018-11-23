@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/activity_login_background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sushi_wallpaper" />
+
+    <TextView
+        android:id="@+id/activity_login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="72sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="20dp"
+        android:padding="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/activity_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/full_dimmed_black"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:maxLines="1"
+            android:imeOptions="actionNext"
+            android:fontFamily="sans-serif"
+            android:textColorHint="@android:color/white"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/activity_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/full_dimmed_black"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="15dp"
+            android:textColorHint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/activity_login_button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/full_red_from_yellow_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:padding="15dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/login"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/activity_login_button_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:fontFamily="sans-serif"
+            android:padding="15dp"
+            android:text="@string/register_now"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@drawable/full_dimmed_black_no_stroke"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

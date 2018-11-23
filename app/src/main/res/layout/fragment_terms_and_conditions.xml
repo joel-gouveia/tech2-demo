@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech2.demo.com.demo.ui.fragments.TermsAndConditionsFragment">
+
+    <TextView
+        android:id="@+id/fragment_terms_conditions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:text="@string/terms" />
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">foodie</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register_user">RegisterUserActivity</string>
+    <string name="title_activity_meals">MealsActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+
+    <string name="no_content">No content to show</string>
+    <string name="edit_content">Edit</string>
+    <string name="delete_content">Delete</string>
+    <string name="description">Description</string>
+    <string name="numbercalories">Number of Calories</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_now">Register Now</string>
+    <string name="expected_calories">Daily maximum calories</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="promote_user">Promote to Manager</string>
+    <string name="promote_manager">Promote to Admin</string>
+    <string name="user_details_calories">Calories</string>
+    <string name="user_adapter_manager">Manager</string>
+    <string name="user_adapter_admin">Admin</string>
+    <string name="fragment_meals_filter">Filter</string>
+    <string name="calories">Calories</string>
+    <string name="default_password">changeme</string>
+
+    <string name="manager">Manager</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+
+    <string name="fragment_dialog_from">From</string>
+    <string name="fragment_dialog_to">To</string>
+    <string name="fragment_dialog_title">Filter Meals</string>
+
+    <string name="fragment_profile_toolbar_title">Profile</string>
+    <string name="fragment_terms_toolbar_title">Terms and Conditions</string>
+    <string name="fragment_create_meal_title">New Meal</string>
+    <string name="fragment_create_user_title">New User</string>
+    <string name="fragment_edit_user_title">Edit User</string>
+
+    <string name="login_activity_error_field_required">You must fill this field</string>
+    <string name="login_activity_no_such_user">Email or password invalid</string>
+    <string name="login_activity_wrong_password">Wrong password</string>
+    <string name="login_activity_other_error">Please check your connection and try again</string>
+    <string name="login_activity_password_size">Your password must be between 8 and 16 characters</string>
+    <string name="login_activity_email_inuse">Email is already in use</string>
+    <string name="login_activity_invalid_email">Email is not valid</string>
+    <string name="login_activity_invalid_password">Password is not valid</string>
+    <string name="login_activity_max_entries">Please retry in a minute</string>
+
+    <string name="toolbar_title_dashboard">Dashboard</string>
+    <string name="toolbar_title_meals">Your Meals</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string-array name="navigation_drawer_options">
+        <item>Profile</item>
+        <item>Terms and Conditions</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="terms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus sapien at elit laoreet, a finibus orci euismod. Suspendisse dictum hendrerit placerat. Fusce suscipit ullamcorper arcu, vel vulputate arcu gravida et. Vestibulum eget pulvinar eros. Etiam massa enim, suscipit eu auctor quis, venenatis ac erat. Sed nunc metus, pharetra vitae nibh quis, volutpat egestas leo. Nunc vel pulvinar lorem. Aenean consequat arcu sit amet hendrerit commodo. Vestibulum lacus quam, luctus nec dignissim ut, tempus tincidunt risus. Aenean blandit in felis at consectetur. Maecenas ipsum ante, dictum a ultrices congue, dapibus nec lorem. Vivamus pulvinar nisl lacus, sed hendrerit metus pretium in. Pellentesque vitae ligula nec ante maximus interdum sit amet eget lacus. Quisque ultricies, orci a semper fermentum, leo nunc dignissim augue, nec cursus tellus lacus quis ipsum. Curabitur eget nulla faucibus, maximus velit a, lobortis tortor.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
